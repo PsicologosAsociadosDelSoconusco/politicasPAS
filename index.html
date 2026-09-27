@@ -19,7 +19,7 @@ main{max-width:900px;margin:0 auto;padding:48px 20px 72px}.hero,.card{background
 <div class="eyebrow">Grupo PAS</div>
 <h1>Política de Privacidad</h1>
 <p><strong>PAS Integral · Expediente Clínico Digital</strong></p>
-<p>Última actualización: 26 de septiembre de 2026</p>
+<p>Última actualización: 27 de septiembre de 2026</p>
 </section>
 
 <section class="card">
@@ -37,6 +37,9 @@ main{max-width:900px;margin:0 auto;padding:48px 20px 72px}.hero,.card{background
 <li>Información necesaria para comprobar el derecho de uso, restaurar compras y determinar si una licencia está activa, vencida o revocada.</li>
 <li>Nombre y cédula declarados por el usuario durante el proceso de declaración profesional, cuando corresponda.</li>
 <li>Registro del aviso de responsabilidad y de la firma asociada a dicha declaración, conforme al flujo de activación.</li>
+<li>Referencia de soporte asociada a la licencia o compra (por ejemplo, un identificador del tipo PAS-XXXX-XXXX), fechas de primera activación/registro y última validación, tipo de plan y plataforma.</li>
+<li>Para compras de Google Play, puede conservarse una huella criptográfica del identificador de compra con fines de soporte y correlación. PAS Integral no expone ese identificador de compra como una clave canjeable.</li>
+<li>Si configuras recuperación, el servicio de soporte puede conservar un verificador criptográfico unidireccional de la respuesta de recuperación. La respuesta en texto legible no se almacena ni puede consultarse desde el panel de soporte.</li>
 </ul>
 <h3>2. Datos clínicos introducidos por el usuario</h3>
 <ul>
@@ -55,7 +58,7 @@ main{max-width:900px;margin:0 auto;padding:48px 20px 72px}.hero,.card{background
 <li>Validar, activar, restaurar, renovar o revocar el derecho de uso de PAS Integral.</li>
 <li>Permitir que el usuario gestione localmente sus expedientes y documentación clínica.</li>
 <li>Mantener las medidas de seguridad de acceso configuradas por el usuario.</li>
-<li>Atender solicitudes de soporte técnico y diagnosticar fallos cuando el usuario decide contactarnos.</li>
+<li>Atender solicitudes de soporte técnico y diagnosticar fallos cuando el usuario decide contactarnos, incluyendo localizar una licencia mediante su referencia de soporte y comprobar una respuesta de recuperación sin almacenarla en texto legible.</li>
 <li>Cumplir obligaciones legales o requerimientos válidos de autoridad cuando resulten aplicables.</li>
 </ul>
 <p><strong>No vendemos información personal ni datos clínicos con fines publicitarios.</strong></p>
@@ -70,14 +73,16 @@ main{max-width:900px;margin:0 auto;padding:48px 20px 72px}.hero,.card{background
 
 <section class="card">
 <h2>Contraseñas y recuperación</h2>
-<p>PAS Integral requiere medidas de seguridad para acceder a los expedientes. Las credenciales y mecanismos de recuperación configurados en la aplicación están destinados a proteger el acceso local. El usuario debe conservar de forma segura su contraseña y su clave de recuperación.</p>
-<p>Por seguridad, el soporte técnico no debe recibir por correo expedientes completos, contraseñas, claves de recuperación ni información identificable de pacientes salvo que exista un procedimiento expresamente autorizado y seguro para ello.</p>
+<p>PAS Integral requiere medidas de seguridad para acceder a los expedientes. La contraseña, la clave de recuperación y el cifrado de los expedientes protegen el acceso local. PAS Integral no mantiene una “clave maestra” que permita descifrar expedientes si se pierden todas las credenciales locales.</p>
+<p>Con fines de soporte, cuando configuras o actualizas la recuperación la aplicación puede enviar al servicio de licencias un verificador criptográfico derivado de la respuesta de recuperación. Este verificador permite comprobar si una respuesta proporcionada posteriormente coincide, pero no permite recuperar ni mostrar la respuesta original. La contraseña local y la clave de recuperación no se envían al servidor de licencias.</p>
+<p>Por seguridad, el soporte técnico no debe recibir por correo expedientes completos, contraseñas, claves de recuperación ni información identificable de pacientes. Para problemas de acceso o licencia, utiliza de preferencia la referencia de soporte mostrada en Ajustes.</p>
 </section>
 
 <section class="card">
 <h2>Compras, suscripciones y terceros</h2>
 <p>Las compras realizadas en Android están sujetas también a las condiciones y políticas de Google Play. Google puede tratar información de pago y de la cuenta conforme a sus propias políticas. PAS Integral utiliza únicamente la información necesaria para determinar si existe un derecho de uso válido.</p>
 <p>Una cancelación o expiración de suscripción puede impedir el acceso a las funciones protegidas de PAS Integral, pero no implica por sí sola la eliminación automática de los expedientes locales.</p>
+<p>Los registros creados por PAS Integral para facilitar soporte de compras de Google Play son administrativos y no sustituyen la validación de compra de Google Play ni conceden por sí mismos derecho de acceso.</p>
 </section>
 
 <section class="card">
